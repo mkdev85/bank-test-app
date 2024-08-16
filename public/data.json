@@ -1,0 +1,109 @@
+{
+  "user": {
+    "data": {
+      "id": "user123",
+      "accountId": "account123",
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    }
+  },
+  "statement": {
+    "data": [
+      {
+        "transactionId": "txn007",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-02-14T11:48:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn006",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-07-14T11:47:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn004",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-01T11:45:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn005",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-02T11:46:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn009",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-05T11:50:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn008",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-07T11:49:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn003",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-09T11:44:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn010",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-10T11:51:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn002",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-13T11:42:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn011",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "withdrawal",
+        "createdAt": "2024-08-13T11:52:07.780Z",
+        "status": "success"
+      },
+      {
+        "transactionId": "txn001",
+        "accountId": "account123",
+        "amount": 5000,
+        "type": "deposit",
+        "createdAt": "2024-08-14T11:42:07.780Z",
+        "status": "success"
+      }
+    ]
+  },
+  "balance": {
+    "data": {
+      "currentBalance": 45000,
+      "currency": "USD",
+      "accountId": "account123"
+    }
+  }
+}
