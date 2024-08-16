@@ -8,8 +8,7 @@ import { useAppSelector } from '@/hooks/utilityHooks';
 
 import { formatCurrency } from '@/utils/formatters';
 
-
-export const TotalBalance = () => {
+const TotalBalance = () => {
   const balance = useAppSelector(state => state.balance);
   const [totalBalance, setTotalBalance] = useState<number>(0);
 
@@ -43,3 +42,5 @@ export const TotalBalance = () => {
     </Box>
   );
 };
+
+export default TotalBalance
